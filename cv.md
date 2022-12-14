@@ -78,7 +78,7 @@ int main() {
 ### Languages:
 
 * English (upperintermediate).
-Worked in the USA as Guest Service Agent in Adam's Mark resort and as security officer in Securitas company.
+* Worked in the USA as Guest Service Agent in Adam's Mark resort and as security officer in Securitas company.
 
 * Spanish (beginner)
 * Czech (beginner)
