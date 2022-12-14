@@ -3,10 +3,10 @@
 ## Junior iOS Developer
 
 ### Contact information:
-WA: +7961 226 10 54
-Telegram: SergeyGolNsk
-E-mail: svgnovosibirsk@yandex.ru
-Discord server RS School: SergeyNSK(@svgnovosibirsk)
+* WA: +7961 226 10 54
+* Telegram: SergeyGolNsk
+* E-mail: svgnovosibirsk@yandex.ru
+* Discord server RS School: SergeyNSK(@svgnovosibirsk)
 
 *****
 
