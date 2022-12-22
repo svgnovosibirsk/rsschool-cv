@@ -1,9 +1,9 @@
-# Sergey Golovin
+# Sergey Ivanov
 
 ## Junior iOS Developer
 
 ### Contact information:
-* WA: +7961 226 10 54
+* WA: +7961 226 10 55
 * Telegram: SergeyGolNsk
 * E-mail: svgnovosibirsk@yandex.ru
 * Discord server RS School: SergeyNSK(@svgnovosibirsk)

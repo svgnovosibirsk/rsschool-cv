@@ -17,17 +17,122 @@
           <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
           <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
           <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
-          <li class="nav-item"><a href="#contacts" class="nav-link">Code</a></li>
-          <li class="nav-item"><a href="#summary" class="nav-link">Education</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Courses</a></li>
-          <li class="nav-item"><a href="#skills" class="nav-link">Languages</a></li>
+          <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+          <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
         </ul>
       </nav>
     </div>
   </header>
   <main class="main">
     <div class="container">
-      Main
+      <section class="section" id="profile">
+        <h1 class="section-title">Sergey Ivanov</h1>
+        <p class="job-title">Junior iOS Developer</p>
+      </section>
+      <section class="section" id="contacts">
+        <h2 class="section-title">Contacts</h2>
+        <ul class="contacts-list">
+          <li class="contacts-list-item">WA: +7961 226 10 55</li>
+          <li class="contacts-list-item">Telegram: SergeyGolNsk</li>
+          <li class="contacts-list-item">E-mail: svgnovosibirsk@yandex.ru</li>
+          <li class="contacts-list-item">Discord server RS School: SergeyNSK(@svgnovosibirsk)</li>
+        </ul>
+      </section>
+      <section class="section" id="summary">
+        <h2 class="section-title">Summary</h2>
+
+        <p class="summary-paragraph">From 2008 to 2021, I built a career in the FMCG market
+         from a sales representative to a territorial manager in 
+         companies such as Coca-Cola, British American Tobacco, Metro, 
+         Baltika, Philip Morris.</p>
+
+        <p class="summary-paragraph">During this time, I have developed my <b>soft skils</b>, as well 
+          as sales, planning and management skills.</p>
+
+        <p class="summary-paragraph">I have been interested in programming since childhood. 
+          At school, I attended an elective in computer science.</p>
+
+        <p class="summary-paragraph">I seriously thought about becoming a programmer in 2015. 
+          I started to study programming on my own from available sources.</p>
+
+        <p class="summary-paragraph">In 2021, I got my first current job in IT as Junior iOS Developer.</p>
+
+      </section>
+      <section class="section" id="skils">
+        <h2 class="section-title">Skils</h2>
+        <ul class="skils-list">
+          <li class="skils-list-item">iOS</li>
+          <li class="skils-list-item">Swift, Objective-C, C</li>
+          <li class="skils-list-item">Git, GitLub</li>
+          <li class="skils-list-item">XCode</li>
+          <li class="skils-list-item">Figma</li>
+        </ul>
+        
+      </section>
+      <section class="section" id="code">
+        <h2 class="section-title">Code</h2>
+        <code class="code">
+          <pre>
+            int main() {
+              int programmcode = 0;
+              int interactorpoint = 0;
+              int checherpoint = 0;
+              int total = 0;
+              
+              scanf("%d", &programmcode);
+              scanf("%d", &interactorpoint);
+              scanf("%d", &checherpoint);
+              
+              if (0 == interactorpoint) {
+                  total = programmcode != 0 ? 3 : checherpoint;
+              } else if (1 == interactorpoint) {
+                  total = checherpoint;
+              } else if (4 == interactorpoint) {
+                  total = programmcode != 0 ? 3 : 4;
+              } else if (6 == interactorpoint) {
+                  total = 0;
+              } else if (7 == interactorpoint) {
+                  total = 1;
+              } else {
+                  total = interactorpoint;
+              }
+              
+              printf("%d", total);
+              
+              return 0;
+          }
+          </pre>
+        </code>
+
+      </section>
+      <section class="section" id="education">
+        <h2 class="section-title">Education</h2>
+
+        <p class="university"><b>Tomsk State University:</b>International relations</p>
+
+        <p class="university"><b>Novosibirsk Statue University:</b>Management</p>
+
+      </section>
+      <section class="section" id="courses">
+        <h2 class="section-title">Courses</h2>
+        <ul class="courses-list">
+          <li class="courses-list-item">iOS & Swift - The Complete iOS App Development Bootcamp. Angela Yu. www.udemy.com</li>
+          <li class="courses-list-item">iOS Developer JO. 65Apps.</li>
+          <li class="courses-list-item">Focus Start: iOS Developer. Center of Financial Technologies.</li>
+        </ul>
+      </section>
+      <section class="section" id="languages">
+        <h2 class="section-title">Languages</h2>
+
+        <p class="language"><b>English</b>(upperintermediate)</p>
+        <p><i>Worked in the USA as Guest Service Agent in Adam's Mark 
+          resort and as security officer in Securitas company.</i></p>
+
+        <p class="language"><b>Spanish</b>(beginner)</p>
+        <p class="language"><b>Czech</b>(beginner)</p>
+      </section>
     </div>
   </main>
   <footer class="main-footer">
