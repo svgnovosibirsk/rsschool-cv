@@ -1,11 +1,26 @@
+/* Позиционирование */
+
+/* Блочная модель (размеры, отступы) */
+* {
+  box-sizing: border-box;
+}
+
+/* Типографика (свойства шрифта) */
 body {
-  background-color: powderblue;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-h1 {
-  color: blue;
+/* Оформление (цвет фона, тень) */
+.main {
+  border: 1px solid red;
 }
 
-p {
-  color: red;
+.main-header {
+  border: 1px solid red;
 }
+
+.main-footer {
+  border: 1px solid red;
+}
+
+/* Анимация */
