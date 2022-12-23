@@ -7,7 +7,6 @@
   <title>RSS CV#3</title>
   <link rel="stylesheet" href="style.css">
   <link rel="icon" href="img/cv.ico">
-  <img src="img/ava.jpg" alt="my photo" width="100px" height="100px">
 </head>
 <body>
   <header class="main-header">
@@ -26,8 +25,9 @@
     </div>
   </header>
   <main class="main">
-    <div class="container">
+    <div class="container main-container">
       <section class="section" id="profile">
+        <img src="img/ava.jpg" alt="my photo" width="100px" height="100px">
         <h1 class="section-title">Sergey Ivanov</h1>
         <p class="job-title">Junior iOS Developer</p>
       </section>
@@ -76,31 +76,16 @@
         <code class="code">
           <pre>
             int main() {
-              int programmcode = 0;
-              int interactorpoint = 0;
-              int checherpoint = 0;
-              int total = 0;
-              
-              scanf("%d", &programmcode);
-              scanf("%d", &interactorpoint);
-              scanf("%d", &checherpoint);
-              
-              if (0 == interactorpoint) {
-                  total = programmcode != 0 ? 3 : checherpoint;
-              } else if (1 == interactorpoint) {
-                  total = checherpoint;
-              } else if (4 == interactorpoint) {
-                  total = programmcode != 0 ? 3 : 4;
-              } else if (6 == interactorpoint) {
-                  total = 0;
-              } else if (7 == interactorpoint) {
-                  total = 1;
-              } else {
-                  total = interactorpoint;
-              }
-              
-              printf("%d", total);
-              
+              int d, m, y, r = 0;
+              scanf("%d %d %d", &d, &m, &y);
+          
+            if (d &lt;= 12 && m &lt;= 12 && d != m) {
+              r = 0;
+            } else {
+              r = 1;
+            }
+           
+              printf("%d", r);
               return 0;
           }
           </pre>
@@ -110,9 +95,9 @@
       <section class="section" id="education">
         <h2 class="section-title">Education</h2>
 
-        <p class="university"><b>Tomsk State University:</b>International relations</p>
+        <p class="university"><b>Tomsk State University:</b> International relations</p>
 
-        <p class="university"><b>Novosibirsk Statue University:</b>Management</p>
+        <p class="university"><b>Novosibirsk Statue University:</b> Management</p>
 
       </section>
       <section class="section" id="courses">
